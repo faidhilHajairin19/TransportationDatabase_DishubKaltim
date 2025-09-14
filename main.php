@@ -36,9 +36,9 @@ include 'ceklogin.php';
 <div id="wrapper">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"  style="background-color:rgb(38, 98, 203)">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#"></a>
+            <a class="navbar-brand" href="main.php" style="align-items:center; display:flex"><img src="img/dishub.png" width="50"></a>
         </div>
 
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -53,7 +53,7 @@ include 'ceklogin.php';
 
            
         <ul class="nav navbar-nav navbar-left navbar-top-links">
-            <li><a >Basis Data Angkutan Jalan - Dinas Perhubungan Prov Kaltim</a></li>
+            <li ><a style="background-color:rgb(38, 98, 203); color:white;">Basis Data Angkutan Jalan - Dinas Perhubungan Prov Kaltim</a></li>
         </ul>
 
 
@@ -63,10 +63,10 @@ include 'ceklogin.php';
 
             <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                    <i class="fa fa-user fa-fw"></i> <?php echo $namauser; ?><b class="caret"></b>
+                    <i class="fa fa-user fa-fw" style="color:white"></i> <?php echo $namauser; ?><b class="caret" style="color:white"></b>
                 </a>
-                <ul class="dropdown-menu dropdown-user">
-                    <li class="divider"></li>
+                <ul class="dropdown-menu dropdown-user" >
+                    <li class="divider" ></li>
                     <li><a href="logout.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                     </li>
                 </ul>
